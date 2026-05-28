@@ -6,6 +6,7 @@ const Nav = () => {
     max-[900px]:flex-col max-[900px]:gap-5
     max-[480px]:px-4 max-[480px]:pt-4">
 
+      {/* Logo icon for the navigation bar */}
       <svg
         width="30"
         height="21"
@@ -19,6 +20,8 @@ const Nav = () => {
         />
       </svg>
 
+
+      {/* Navigation links */}
       <section
         className="flex gap-3.75 text-[16px] max-w-68.75 font-normal text-white
         max-[900px]:flex-wrap max-[900px]:justify-center
@@ -38,6 +41,7 @@ const Nav = () => {
         </a>
       </section>
 
+      {/* Sign In button */}
       <button
         className="rounded-[87px] bg-white px-12.25 py-3.75 text-[#090A0D]
         font-[Inter] font-light tracking-[-0.48px] transition-all duration-300

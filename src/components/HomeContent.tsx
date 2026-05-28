@@ -4,6 +4,8 @@ const HomeContent = () => {
     <section
       className="px-5 pt-7.5 sm:px-7 md:px-10 md:pt-10 lg:px-12 lg:pt-12.5 overflow-hidden"
     >
+
+      {/* Header content for the home page */}
       <header
         className="text-[#FFFFFF] flex flex-col items-center gap-5 md:flex-row md:justify-between md:items-start mb-10"
       >
@@ -44,12 +46,16 @@ const HomeContent = () => {
         </p>
       </header>
 
+
+      {/* Main heading for the home page */}
       <p
         className=" font-[Inter] text-white text-center md:text-start font-normal leading-none text-[50px] tracking-[-2px] sm:text-[70px] md:text-[90px] md:tracking-[-6px] lg:text-[130px] lg:tracking-[-10px] xl:text-[168px] xl:tracking-[-13px]
       "
       >
         Decentralize
       </p>
+
+      {/* Subheading for the home page */}
 
       <div
         className=" flex flex-col-reverse lg:flex-row justify-between items-center lg:items-end gap-7.5 lg:gap-5"

@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <nav className="flex justify-between items-center py-3.25 px-2.5 max-w-343.5
     max-[900px]:flex-col max-[900px]:gap-5
-    max-[640px]:px-4 max-[640px]:pt-4">
+    max-[480px]:px-4 max-[480px]:pt-4">
 
       <svg
         width="30"
@@ -22,7 +22,7 @@ const Nav = () => {
       <section
         className="flex gap-3.75 text-[16px] max-w-68.75 font-normal text-white
         max-[900px]:flex-wrap max-[900px]:justify-center
-        max-[640px]:gap-3 max-[640px]:text-[13px]"
+        max-[480px]:gap-3 max-[480px]:text-[13px]"
       >
         <a href="#" className="tracking-[-0.56px]">
           HOME
@@ -42,7 +42,7 @@ const Nav = () => {
         className="rounded-[87px] bg-white px-12.25 py-3.75 text-[#090A0D]
         font-[Inter] font-light tracking-[-0.48px] transition-all duration-300
         ease-out hover:scale-105 cursor-pointer
-        max-[640px]:px-7 max-[640px]:py-3"
+        max-[480px]:px-7 max-[480px]:py-3"
       >
         Sign In
       </button>

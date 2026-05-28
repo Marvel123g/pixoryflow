@@ -2,8 +2,29 @@
 const HomeContent = () => {
   return (
     <section
-      className="px-12 overflow-hidden"
+      className="px-12 overflow-hidden relative"
     >
+
+      <div className="absolute top-0 bottom-0 left-9 -z-30 md:block hidden">
+        <div className="border-[#FFFFFF4D] border-[0.94px] w-0 absolute left-0 top-0 bottom-0"/>
+        <span className="text-white absolute z-50 text-[17px] -left-1 top-50">+</span>
+      </div>
+      <div className="absolute top-0 bottom-0 left-90 -z-30 md:block hidden">
+        <div className="border-[#FFFFFF4D] border-[0.94px] w-0 absolute left-0 top-0 bottom-0"/>
+        <span className="text-white absolute z-50 text-[17px] -left-1 top-50">+</span>
+      </div>
+      <div className="absolute top-0 bottom-0 left-170 -z-30 lg:block hidden">
+        <div className="border-[#FFFFFF4D] border-[0.94px] w-0 absolute left-0 top-0 bottom-0"/>
+        <span className="text-white absolute z-50 text-[17px] -left-1 top-50">+</span>
+      </div>
+      <div className="absolute top-0 bottom-0 right-90 -z-30 lg:block hidden ">
+        <div className="border-[#FFFFFF4D] border-[0.94px] w-0 absolute left-0 top-0 bottom-0"/>
+        <span className="text-white absolute z-50 text-[17px] -left-1 top-50">+</span>
+      </div>
+      <div className="absolute top-0 bottom-0 right-9 -z-30 md:block hidden">
+        <div className="border-[#FFFFFF4D] border-[0.94px] w-0 absolute left-0 top-0 bottom-0"/>
+        <span className="text-white absolute z-50 text-[17px] -left-1 top-50">+</span>
+      </div>
 
       {/* Header content for the home page */}
       <header

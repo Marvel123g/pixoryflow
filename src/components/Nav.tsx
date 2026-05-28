@@ -1,10 +1,7 @@
 
-
 const Nav = () => {
   return (
-    <nav className="flex justify-between items-center py-3.25 px-2.5 max-w-343.5
-    max-[900px]:flex-col max-[900px]:gap-5
-    max-[480px]:px-4 max-[480px]:pt-4">
+    <nav className="flex justify-between items-center py-3.25 px-2.5 w-full max-w-343.5 max-[900px]:flex-col max-[900px]:gap-5 max-[480px]:px-4 max-[480px]:pt-4 mx-auto">
 
       {/* Logo icon for the navigation bar */}
       <svg

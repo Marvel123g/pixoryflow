@@ -7,12 +7,14 @@ function App() {
   return (
     <div className=" font-[RobotoMono] relative min-h-screen">
       <img src="./background.gif" alt="background image" className='absolute h-full w-full -z-50' loading='eager'/>
-      <div className='p-5 z-50 flex flex-col gap-10 justify-between'>
+      <div className='sm:p-5 z-50 flex flex-col min-h-screen'>
         {/* Using the Nav component that was imported */}
         <Nav/>
 
         {/* Using the HomeContent component that was imported */}
-        <HomeContent/>
+        <div className='grow flex items-center justify-center max-w-350'>
+          <HomeContent/>
+        </div>
       </div>
     </div>
   )

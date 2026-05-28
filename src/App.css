@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'RobotoMono';
+    src: url('./assets/fonts/RobotoMono.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter.ttf') format("truetype");
+}
